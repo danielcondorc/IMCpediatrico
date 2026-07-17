@@ -41,3 +41,7 @@ streamlit run app.py
 ## Advertencia
 
 Es una herramienta educativa y de tamizaje. No sustituye la evaluación de pediatría o nutrición ni debe utilizarse como único criterio diagnóstico.
+
+## Solución al error ModuleNotFoundError
+
+Los archivos `app.py`, `requirements.txt` y `runtime.txt` deben estar juntos en la raíz del repositorio de GitHub. Después de subirlos, reinicia la aplicación desde **Manage app > Reboot app**. Si el error continúa, usa **Manage app > Settings > Reboot/Delete and redeploy** para forzar la reinstalación de dependencias.
