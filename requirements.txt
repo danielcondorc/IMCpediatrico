@@ -1,2 +1,2 @@
-streamlit==1.49.1
+streamlit>=1.36,<2.0
 pygrowup==0.8.2
